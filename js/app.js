@@ -176,6 +176,7 @@ function detailsBtn(movieId) {
 }
 
 function showPopuDetails(data) {
+  modalBody.textContent = "";
   let card = document.createElement("div");
   card.className = "card";
   card.setAttribute("style", "width: 100%");
