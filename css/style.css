@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.logo {
+  width: 7rem;
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  font-weight: 400;
+}
+.search-div {
+  width: 35rem;
+  padding-top: 4rem;
+}
+.spinner-div {
+  padding: 4rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.inner-div {
+  width: 100%;
+  height: 100%;
+}
+.hero-section {
+  background: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/bgQUBbZ14hfeb975yZ2YzTnAwen.jpg");
+  width: 100%;
+  height: 18rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rating-div {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #081c22;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.rating-div h6 {
+  margin: 0;
+}
+.main-rating {
+  width: 210px;
+}
+.rating-title h5 {
+  margin: 0;
+}
+.pop-btn {
+  position: absolute;
+  left: 13px;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.pop-btn:hover,
+.pop-btn:focus {
+  background: transparent;
+  box-shadow: none;
+}
+.pop-main {
+  position: relative;
+}
